@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": ["ES2021"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@autocheck/types": ["packages/types/src"],
+      "@autocheck/score-engine": ["packages/score-engine/src"],
+      "@autocheck/providers": ["packages/providers/src"],
+      "@autocheck/payments": ["packages/payments/src"]
+    }
+  }
+}

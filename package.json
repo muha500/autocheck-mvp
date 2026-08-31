@@ -1,0 +1,11 @@
+{
+  "name": "autocheck-mvp",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "score-engine:demo": "ts-node packages/score-engine/src/demo.ts"
+  }
+}
