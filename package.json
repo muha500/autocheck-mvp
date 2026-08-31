@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "score-engine:demo": "ts-node packages/score-engine/src/demo.ts"
+    "score-engine:demo": "ts-node packages/score-engine/src/demo.ts",
+    "start": "npm run --workspace apps/bot dev"
   }
 }
